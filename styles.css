@@ -1,0 +1,37 @@
+body
+{
+    background-color: #044848;
+    color: #ffffff;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+h2
+{
+    text-align: center
+}
+
+img
+{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centreblock
+{
+    margin: auto;
+    width: 50%;
+    text-align: centre;
+}
+
+img
+{
+    max-width: 600px;
+    max-height: 1800px;
+    object-fit: contain;
+}
