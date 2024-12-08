@@ -16,10 +16,23 @@ h2
 
 img
 {
-    width: 20%;
+    max-width: 80%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    img {
+        width: 50%; /* Larger size for tablets and up */
+    }
+}
+
+@media (min-width: 1200px) {
+    img {
+        width: 20%; /* Original size for desktops */
+    }
 }
 
 .centreblock
@@ -29,9 +42,3 @@ img
     text-align: centre;
 }
 
-img
-{
-    max-width: 600px;
-    max-height: 1800px;
-    object-fit: contain;
-}
